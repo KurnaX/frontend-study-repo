@@ -153,7 +153,7 @@
 
 <h3>布尔属性</h3>
 <p>disabled, readonly, required, autoplay</p>
-<video src="../pics/scmas.mp4" autoplay="autoplay" muted></video>
+<!--<video src="../pics/scmas.mp4" autoplay="autoplay" controls="controls" muted></video>-->
 
 <h3>自定义属性</h3>
 <p>data-*: 用于存储自动以数据，通常通过js访问</p>
@@ -161,8 +161,58 @@
 <h3>时间处理属性</h3>
 <p>onclick, onmouseoveer, onchange</p>
 <button onclick="alert('Button clicked!')">Click me!</button>
-<div onmouseover="this.style.backgroundColor='red'">point at me</div>
-<input type="text" onchange="alert('Value Changed')">
+<div onmouseover="this.style.backgroundColor='#FFD203'">point at me</div>
+<label>
+    <input type="text" onchange="alert('Value Changed')">
+</label>
+
+<!-- HTML-headings -->
+<hr>
+<p>用&lt;hr&gt;创造水平线</p>
+
+<!-- HTML-paragraph -->
+<hr>
+用&lt;p&gt;创造一个段落，前后自动分行
+
+<!-- HTML-formatting -->
+<hr>
+<p>
+    <b>这是粗体bold</b>
+    <strong>这也是粗体strong</strong>
+    <i>这是斜体italic</i>
+    <em>这也是斜体emphasized text</em>
+    <small>这是小号字small</small>
+    这是<sub>下标sub</sub>
+    这是<sup>上标sup</sup>
+    <b><i><sup>这是粗斜上标</sup></i></b>
+    原来不用加&lt;p&gt;也可以
+    <ins>这是插入字ins</ins>
+    <del>这是删除字del</del>
+    <br>
+    <code style="language: 'python'; font-size: 20px; color: #6EA3FC">def code_block:<br>&nbsp;&nbsp;pass</code>
+    <br>
+    <kbd>这是键盘码kbd</kbd>
+    <samp>定义计算机代码样本samp</samp>
+    <var>定义变量var</var>
+</p>
+<pre>定义预格式文本    四个空格pre</pre>
+<abbr title="缩写">abbr</abbr>
+<address>定义地址</address>
+<bdo dir="rtl">这段文字从右往左显示bdo<br></bdo>
+<blockquote>定义长引用blockquote</blockquote>
+<q>定义短引用q</q>
+<cite>定义引用、引证cite<br></cite>
+<dfn>定义一个定义项目bfn<br></dfn>
+
+<!-- HTML-links -->
+<hr>
+<p>
+    &lt;a&nbsp;href="URL"&gt;链接文本&lt;/a&gt;
+    <br>
+    target的参数
+    <br>
+
+</p>
 
 </body>
 </html>
